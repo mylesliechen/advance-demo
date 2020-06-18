@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  redis:
+    host: 10.226.132.134
+    port: 6388
+    password: jcloud6388
+    database: 2
+    timeout: 3000
+    lettuce:
+      pool:
+        max-wait: 100
+        max-active: 50
+        min-idle: 5
+        max-idle: 10
