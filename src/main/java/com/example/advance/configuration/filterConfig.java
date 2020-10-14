@@ -19,7 +19,6 @@ public class filterConfig {
         registration.setOrder(Ordered.HIGHEST_PRECEDENCE + 1);
         registration.setDispatcherTypes(DispatcherType.REQUEST, DispatcherType.ASYNC);
         return registration;
-
     }
 
 }
