@@ -25,8 +25,8 @@ public class merge {
     static {
 //        System.setProperty("HADOOP_USER_NAME", "root");
         try {
-//            String s3a = "s3a://cn-north-1-chenxue198/inventory/";
-            String pathlocal = "/Users/chenxue198/Downloads/par2.parquet";
+//            String s3a = "s3a://bucket/inventory/";
+            String pathlocal = "../par2.parquet";
             Path path = new Path(pathlocal);
             fileSystem = path.getFileSystem(getConfiguration());
 
@@ -36,7 +36,7 @@ public class merge {
     }
 
     public static void main(String[] args) throws Exception {
-        mergeParquet("/Users/chenxue198/Downloads/par2.parquet");
+        mergeParquet("/par2.parquet");
     }
 
 
@@ -48,7 +48,7 @@ public class merge {
 
         List<Path> parquetPaths = getParquetPaths(dir);
 
-        String dest = "/Users/chenxue198/Downloads/merged12par.parquet";
+        String dest = "/merged12par.parquet";
         Path destPath = new Path(dest);
         ParquetWriter parquetWriter = getParquetWriter(messageType, destPath);
         ParquetReader<Group> parquetReader;
@@ -139,8 +139,8 @@ public class merge {
 //                fileList.add(path);
 //            }
 //        }
-        fileList.add(new Path("/Users/chenxue198/Downloads/par1.parquet"));
-        fileList.add(new Path("/Users/chenxue198/Downloads/par2.parquet"));
+        fileList.add(new Path("/par1.parquet"));
+        fileList.add(new Path("/par2.parquet"));
 
         return fileList;
     }

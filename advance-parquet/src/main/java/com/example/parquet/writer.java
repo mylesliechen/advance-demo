@@ -37,8 +37,8 @@ public class writer {
 //        configuration.set("fs.s3a.endpoint", endPoint);
 //        configuration.set("fs.s3a.access.key", ak);
 //        configuration.set("fs.s3a.secret.key", sk);
-//        String f1 = "s3a://cn-north-1-chenxue198/inventory/par1.parquet";//bucket
-        String f1 = "/Users/chenxue198/export/test.parquet";//本地文件路径
+//        String f1 = "s3a://bucket/inventory/par1.parquet";//bucket
+        String f1 = "../test.parquet";//本地文件路径
 
         Path file = new Path(f1);
 

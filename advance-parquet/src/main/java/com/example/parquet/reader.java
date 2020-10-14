@@ -39,6 +39,6 @@ public class reader {
 
 
     public static void main(String[] args) {
-        readParquetFromDisk("/Users/chenxue198/Downloads/par2col.parquet");
+        readParquetFromDisk("/par2col.parquet");
     }
 }

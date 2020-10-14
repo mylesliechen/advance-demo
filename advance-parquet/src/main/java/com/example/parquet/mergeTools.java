@@ -37,8 +37,8 @@ public class mergeTools {
                 + "optional binary idc_id;" + "optional int64 house_id;"
                 + "}";
         MessageType schema = MessageTypeParser.parseMessageType(schemaStr);
-        Path path1 = new Path("/Users/chenxue198/Downloads/par1.parquet");
-        Path path2 = new Path("/Users/chenxue198/Downloads/par2.parquet");
+        Path path1 = new Path("/par1.parquet");
+        Path path2 = new Path("/par2.parquet");
         List<Path> inputFiles = new ArrayList<>();
         inputFiles.add(path1);
         inputFiles.add(path2);
@@ -47,7 +47,7 @@ public class mergeTools {
 
 //        FileMetaData mergedMeta = mergedMetadata(inputFiles);
 
-//        Path outputFile = new Path("/Users/chenxue198/Downloads/mergetools.parquet");
+//        Path outputFile = new Path("/mergetools.parquet");
 //         Merge data
 //        ParquetFileWriter writer = new ParquetFileWriter(new Configuration(),
 //                mergedMeta.getSchema(), outputFile, ParquetFileWriter.Mode.CREATE);
@@ -100,7 +100,7 @@ public class mergeTools {
 //
 //        }
 //
-//        HadoopInputFile hadoopInputFile = HadoopInputFile.fromPath(new Path("/Users/chenxue198/Downloads/par2.parquet"), new Configuration());
+//        HadoopInputFile hadoopInputFile = HadoopInputFile.fromPath(new Path("/par2.parquet"), new Configuration());
 //        ParquetFileReader parquetFileReader = ParquetFileReader.open(hadoopInputFile, ParquetReadOptions.builder().build());
 //        ParquetMetadata footer = parquetFileReader.getFooter();
 //
@@ -109,7 +109,7 @@ public class mergeTools {
 //        try {
 //            ParquetMetadataConverter metadataConverter = new ParquetMetadataConverter();
 //
-//            o = new FileOutputStream("/Users/chenxue198/Downloads/meta12.parquet");
+//            o = new FileOutputStream("/meta12.parquet");
 //            org.apache.parquet.format.FileMetaData parquetMetadata = metadataConverter.toParquetMetadata(CURRENT_VERSION, footer);
 //
 //            Util.writeFileMetaData(parquetMetadata, o);
@@ -168,7 +168,7 @@ public class mergeTools {
 
     @Test
     public void testGetFooterAndData() throws IOException {//拆分
-        LocalFileInputFile localFileInputFile = new LocalFileInputFile("/Users/chenxue198/Downloads/par1.parquet", new Configuration());
+        LocalFileInputFile localFileInputFile = new LocalFileInputFile("/par1.parquet", new Configuration());
         ParquetMetaWithFooter parquetMetaWithFooter = readFooter(localFileInputFile, ParquetReadOptions.builder().build(), localFileInputFile.newStream(), new ParquetMetadataConverter());
 
     }
@@ -180,7 +180,7 @@ public class mergeTools {
 
     @Test
     public void readFooterAndWriteBack() throws IOException {
-        Path path = new Path("/Users/chenxue198/Downloads/par1.parquet");
+        Path path = new Path("/par1.parquet");
         HadoopInputFile hadoopInputFile = HadoopInputFile.fromPath(path, new Configuration());
         ParquetFileReader parquetFileReader = ParquetFileReader.open(hadoopInputFile, ParquetReadOptions.builder().build());
         ParquetMetadata metaData = parquetFileReader.getFooter();
@@ -191,7 +191,7 @@ public class mergeTools {
 
 //        parquetMetadata.get
 
-        FileOutputStream fos = new FileOutputStream("/Users/chenxue198/Downloads/par1meta.parquet");
+        FileOutputStream fos = new FileOutputStream("/par1meta.parquet");
         Util.writeFileMetaData(parquetMetadata, fos);
         //最后8字节信息，长度可以根据meta长度拼接
 //        BytesUtils.writeIntLittleEndian(fos, (int) (fos() - footerIndex));
@@ -201,7 +201,7 @@ public class mergeTools {
 
     @Test
     public void readByte() throws IOException {
-        File file = new File("/Users/chenxue198/Downloads/par1.parquet");
+        File file = new File("/par1.parquet");
         FileInputStream fis = new FileInputStream(file);
         DataInputStream dis = new DataInputStream(fis);
         byte[] by = new byte[1000];
@@ -241,7 +241,7 @@ public class mergeTools {
         int footerLength = 465;
         int footerIndex = 237;
         int footerLengthIndex = 702;
-        byte[] readAllBytes = Files.readAllBytes(new File("/Users/chenxue198/Downloads/par1.parquet").toPath());
+        byte[] readAllBytes = Files.readAllBytes(new File("/par1.parquet").toPath());
         System.out.println(readAllBytes.length);
 //
         byte[] data = new byte[237];//data长度
@@ -268,15 +268,15 @@ public class mergeTools {
         System.out.println("data:" + data.length);//data加上第一个par1
 //        System.out.println("meta:" + meta.length);
         System.out.println(magicAndFooterLength.length);
-        FileOutputStream fos = new FileOutputStream("/Users/chenxue198/Downloads/par1data.parquet");
+        FileOutputStream fos = new FileOutputStream("/par1data.parquet");
         fos.write(data);
         fos.close();
 //
-//        FileOutputStream fosmeta = new FileOutputStream("/Users/chenxue198/Downloads/meta.parquet");
+//        FileOutputStream fosmeta = new FileOutputStream("/meta.parquet");
 //        fosmeta.write(meta);//
 //        fosmeta.close();
 //
-        FileOutputStream fosFooter = new FileOutputStream("/Users/chenxue198/Downloads/par1footer.parquet");
+        FileOutputStream fosFooter = new FileOutputStream("/par1footer.parquet");
         fosFooter.write(magicAndFooterLength);
         fosFooter.close();
     }
@@ -287,7 +287,7 @@ public class mergeTools {
         int footerLength = 482;
         int footerIndex = 225;
         int footerLengthIndex = 674;
-        byte[] readAllBytes = Files.readAllBytes(new File("/Users/chenxue198/Downloads/par2.parquet").toPath());
+        byte[] readAllBytes = Files.readAllBytes(new File("/par2.parquet").toPath());
         System.out.println(readAllBytes.length);
 
         byte[] data = new byte[225];//data长度
@@ -314,15 +314,15 @@ public class mergeTools {
         System.out.println("data:" + data.length);//data加上第一个par1
         System.out.println("meta:" + meta.length);
         System.out.println(magicAndFooterLength.length);
-        FileOutputStream fos = new FileOutputStream("/Users/chenxue198/Downloads/data2.parquet");
+        FileOutputStream fos = new FileOutputStream("/data2.parquet");
         fos.write(data);
         fos.close();
 
-        FileOutputStream fosmeta = new FileOutputStream("/Users/chenxue198/Downloads/meta2.parquet");
+        FileOutputStream fosmeta = new FileOutputStream("/meta2.parquet");
         fosmeta.write(meta);//
         fosmeta.close();
 
-        FileOutputStream fosFooter = new FileOutputStream("/Users/chenxue198/Downloads/footer2.parquet");
+        FileOutputStream fosFooter = new FileOutputStream("/footer2.parquet");
         fosFooter.write(magicAndFooterLength);
         fosFooter.close();
     }

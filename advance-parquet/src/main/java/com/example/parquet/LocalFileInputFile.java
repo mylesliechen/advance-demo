@@ -15,7 +15,7 @@ public class LocalFileInputFile implements InputFile {
     private final FileSystem fs;
     //    private final FileStatus stat;
     private final Configuration conf;
-    private String path = "/Users/chenxue198/Downloads/par1.parquet";
+    private String path = "/par1.parquet";
 
 
     public LocalFileInputFile(String file, Configuration conf) throws IOException {
@@ -29,7 +29,7 @@ public class LocalFileInputFile implements InputFile {
 
     @Override
     public long getLength() throws IOException {
-        return Files.readAllBytes(new File("/Users/chenxue198/Downloads/par1.parquet").toPath()).length;
+        return Files.readAllBytes(new File("/par1.parquet").toPath()).length;
     }
 
     @Override
