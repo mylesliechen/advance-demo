@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b583c85c-d783-46ad-a62c-7fa5c5807a7a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/advace-parquet/src/main/java/com/example/parquet/mergeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/advace-parquet/src/main/java/com/example/parquet/mergeTools.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature-for-parquet" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dUJdiCIU9nThO5abnwWRqsaVXE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/example/advance/parquet" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/advance/parquet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RateLimiterDemoApplicationTests.contextLoads (1)">
+    <configuration name="JsonUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.rate.limiter.utils.JsonUtils" />
+      <module name="advance-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.rate.limiter.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RateLimiterDemoApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advance-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.advance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.advance" />
+      <option name="MAIN_CLASS_NAME" value="com.example.advance.RateLimiterDemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RateLimiterDemoApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advance-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.rate.limiter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.rate.limiter" />
+      <option name="MAIN_CLASS_NAME" value="com.example.rate.limiter.RateLimiterDemoApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RateLimiterDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="advance-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.advance.RateLimiterDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RateLimiterDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="advance-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rate.limiter.RateLimiterDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RateLimiterDemoApplicationTests.contextLoads (1)" />
+        <item itemvalue="Application.JsonUtils" />
+        <item itemvalue="JUnit.RateLimiterDemoApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b583c85c-d783-46ad-a62c-7fa5c5807a7a" name="Default Changelist" comment="" />
+      <created>1592473827710</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592473827710</updated>
+      <workItem from="1592473829251" duration="9781000" />
+      <workItem from="1592825997582" duration="165000" />
+      <workItem from="1594017844336" duration="838000" />
+      <workItem from="1596014828640" duration="2826000" />
+      <workItem from="1596545914422" duration="1257000" />
+      <workItem from="1602668362631" duration="368000" />
+      <workItem from="1602669038395" duration="2000" />
+      <workItem from="1602669059185" duration="1325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="717" y="261" key="#com.intellij.ide.util.MemberChooser" timestamp="1596546180357">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="717" y="261" key="#com.intellij.ide.util.MemberChooser/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596546180357" />
+    <state x="407" y="469" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602670042937">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="407" y="469" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/68.23.1612.1027@68.23.1612.1027" timestamp="1602670042937" />
+    <state x="229" y="115" key="DiffContextDialog" timestamp="1596546078041">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="229" y="115" key="DiffContextDialog/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596546078041" />
+    <state width="1570" height="384" key="GridCell.Tab.0.bottom" timestamp="1602668892537">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="478" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596015915512" />
+    <state width="1570" height="306" key="GridCell.Tab.0.bottom/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199288" />
+    <state width="1570" height="384" key="GridCell.Tab.0.bottom/68.23.1612.1027@68.23.1612.1027" timestamp="1602668892537" />
+    <state width="1570" height="384" key="GridCell.Tab.0.center" timestamp="1602668892536">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="478" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596015915510" />
+    <state width="1570" height="306" key="GridCell.Tab.0.center/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199287" />
+    <state width="1570" height="384" key="GridCell.Tab.0.center/68.23.1612.1027@68.23.1612.1027" timestamp="1602668892536" />
+    <state width="1570" height="384" key="GridCell.Tab.0.left" timestamp="1602668892536">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="478" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596015915508" />
+    <state width="1570" height="306" key="GridCell.Tab.0.left/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199286" />
+    <state width="1570" height="384" key="GridCell.Tab.0.left/68.23.1612.1027@68.23.1612.1027" timestamp="1602668892536" />
+    <state width="1570" height="384" key="GridCell.Tab.0.right" timestamp="1602668892537">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="478" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596015915511" />
+    <state width="1570" height="306" key="GridCell.Tab.0.right/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199287" />
+    <state width="1570" height="384" key="GridCell.Tab.0.right/68.23.1612.1027@68.23.1612.1027" timestamp="1602668892537" />
+    <state width="1570" height="306" key="GridCell.Tab.1.bottom" timestamp="1596616199289">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="478" key="GridCell.Tab.1.bottom/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596015915515" />
+    <state width="1570" height="306" key="GridCell.Tab.1.bottom/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199289" />
+    <state width="1570" height="306" key="GridCell.Tab.1.center" timestamp="1596616199289">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="478" key="GridCell.Tab.1.center/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596015915514" />
+    <state width="1570" height="306" key="GridCell.Tab.1.center/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199289" />
+    <state width="1570" height="306" key="GridCell.Tab.1.left" timestamp="1596616199288">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="478" key="GridCell.Tab.1.left/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596015915513" />
+    <state width="1570" height="306" key="GridCell.Tab.1.left/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199288" />
+    <state width="1570" height="306" key="GridCell.Tab.1.right" timestamp="1596616199289">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="478" key="GridCell.Tab.1.right/0.0.1680.1050/1680.0.1920.1080@0.0.1680.1050" timestamp="1596015915514" />
+    <state width="1570" height="306" key="GridCell.Tab.1.right/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199289" />
+    <state width="1570" height="306" key="GridCell.Tab.2.bottom" timestamp="1596616199291">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="306" key="GridCell.Tab.2.bottom/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199291" />
+    <state width="1570" height="306" key="GridCell.Tab.2.center" timestamp="1596616199290">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="306" key="GridCell.Tab.2.center/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199290" />
+    <state width="1570" height="306" key="GridCell.Tab.2.left" timestamp="1596616199290">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="306" key="GridCell.Tab.2.left/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199290" />
+    <state width="1570" height="306" key="GridCell.Tab.2.right" timestamp="1596616199290">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state width="1570" height="306" key="GridCell.Tab.2.right/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596616199290" />
+    <state x="412" y="198" key="Maven.ArtifactSearchDialog" timestamp="1602668667593">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="412" y="198" key="Maven.ArtifactSearchDialog/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596015736268" />
+    <state x="412" y="198" key="Maven.ArtifactSearchDialog/68.23.1612.1027@68.23.1612.1027" timestamp="1602668667593" />
+    <state x="229" y="115" key="MergeDialog" timestamp="1602670289374">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="229" y="115" key="MergeDialog/68.23.1612.1027@68.23.1612.1027" timestamp="1602670289374" />
+    <state x="587" y="259" key="MultipleFileMergeDialog" timestamp="1602670289431">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="587" y="259" key="MultipleFileMergeDialog/68.23.1612.1027@68.23.1612.1027" timestamp="1602670289431" />
+    <state x="641" y="254" key="RollbackChangesDialog" timestamp="1602670322614">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="641" y="254" key="RollbackChangesDialog/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596546079398" />
+    <state x="641" y="254" key="RollbackChangesDialog/68.23.1612.1027@68.23.1612.1027" timestamp="1602670322614" />
+    <state x="675" y="248" key="VCS.ChangeListViewerDialog" timestamp="1602670458165">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="675" y="248" key="VCS.ChangeListViewerDialog/68.23.1612.1027@68.23.1612.1027" timestamp="1602670458165" />
+    <state x="663" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602669707347">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="663" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/68.23.1612.1027@68.23.1612.1027" timestamp="1602669707347" />
+    <state x="540" y="298" width="667" height="476" key="find.popup" timestamp="1602669246851">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="540" y="298" width="667" height="476" key="find.popup/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596016110327" />
+    <state x="540" y="298" width="667" height="476" key="find.popup/68.23.1612.1027@68.23.1612.1027" timestamp="1602669246851" />
+    <state x="629" y="256" key="git4idea.branch.GitSmartOperationDialog" timestamp="1602670278540">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="629" y="256" key="git4idea.branch.GitSmartOperationDialog/68.23.1612.1027@68.23.1612.1027" timestamp="1602670278540" />
+    <state x="268" y="234" key="new project wizard" timestamp="1602670004778">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="268" y="234" key="new project wizard/68.23.1612.1027@68.23.1612.1027" timestamp="1602670004778" />
+    <state x="539" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1602670333309">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="539" y="250" key="search.everywhere.popup/68.23.1612.1027/1680.23.1920.1057@68.23.1612.1027" timestamp="1596015301320" />
+    <state x="539" y="250" width="670" height="676" key="search.everywhere.popup/68.23.1612.1027@68.23.1612.1027" timestamp="1602670333309" />
+  </component>
+</project>
