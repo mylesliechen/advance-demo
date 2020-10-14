@@ -15,7 +15,7 @@ import org.apache.parquet.io.InputFile;
 import org.apache.parquet.io.SeekableInputStream;
 import org.apache.parquet.schema.MessageType;
 import org.apache.parquet.schema.MessageTypeParser;
-import org.testng.annotations.Test;
+import org.junit.jupiter.api.Test;
 
 import java.io.*;
 import java.nio.ByteBuffer;
