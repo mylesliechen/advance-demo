@@ -2,10 +2,9 @@ server:
   port: 8080
 spring:
   redis:
-    host: 10.226.132.134
+    host: 127.0.0.1
     port: 6388
-    password: jcloud6388
-    database: 2
+    password: pasaword
     timeout: 3000
     lettuce:
       pool:
