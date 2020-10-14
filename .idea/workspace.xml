@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b583c85c-d783-46ad-a62c-7fa5c5807a7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/advace-parquet/src/main/java/com/example/parquet/mergeTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/advace-parquet/src/main/java/com/example/parquet/mergeTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +83,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="RateLimiterDemoApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="advance-demo" />
       <extension name="coverage">
@@ -128,6 +145,16 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="/usr/local/bin/lua" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/src/main/resources" />
+      <option name="debuggerType" value="2" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
@@ -268,10 +295,14 @@
       <screen x="68" y="23" width="1612" height="1027" />
     </state>
     <state x="675" y="248" key="VCS.ChangeListViewerDialog/68.23.1612.1027@68.23.1612.1027" timestamp="1602670458165" />
-    <state x="663" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602669707347">
+    <state x="168" y="123" width="1412" height="827" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1602670943453">
       <screen x="68" y="23" width="1612" height="1027" />
     </state>
-    <state x="663" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/68.23.1612.1027@68.23.1612.1027" timestamp="1602669707347" />
+    <state x="168" y="123" width="1412" height="827" key="com.intellij.dvcs.ui.CompareBranchesDialog/68.23.1612.1027@68.23.1612.1027" timestamp="1602670943453" />
+    <state x="663" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602670910851">
+      <screen x="68" y="23" width="1612" height="1027" />
+    </state>
+    <state x="663" y="460" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/68.23.1612.1027@68.23.1612.1027" timestamp="1602670910851" />
     <state x="540" y="298" width="667" height="476" key="find.popup" timestamp="1602669246851">
       <screen x="68" y="23" width="1612" height="1027" />
     </state>
