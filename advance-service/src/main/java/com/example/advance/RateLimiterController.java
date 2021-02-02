@@ -5,9 +5,9 @@ import com.example.advance.model.CostResult;
 import com.example.advance.model.CostStatus;
 import com.example.advance.model.CostSubUser;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -54,6 +54,20 @@ public class RateLimiterController {
         //return getCost();
     }
 
+    //@RequestMapping(value = {"/upload", "/upload/index"})
+    @PostMapping(value = "/upload", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    public String uploadAvatarImage(@RequestParam("image") MultipartFile file
+                                    //@RequestParam("type") String type,
+                                    //@RequestParam("is_user_avatar") String isUserAvatar
+    ) {
+        String originalFilename = file.getOriginalFilename();
+        //RequestBody.create()
+        //String uid = MomoSessionContext.getMomoid();
+        //Map<String, Object> userInfo = userCacheProvider.getUserProfileByUid(uid);
+        //Map<String, Object> data = uploadAvatarService.uploadImage(file, uid, type, isUserAvatar, userInfo);
+        return originalFilename;
+    }
+
 
     @GetMapping("/traffic/{rate}/{capacity}")
     public void testTrafficLimit(@PathVariable String rate, @PathVariable String capacity) throws InterruptedException {
@@ -78,4 +92,6 @@ public class RateLimiterController {
         long duration = (System.currentTimeMillis() - start) / 1000L;
         log.info("qps :{}", actionCount / duration);
     }
+
+
 }

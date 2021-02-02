@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/advance-demo.iml" filepath="$PROJECT_DIR$/advance-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/advance-parquet/advance-parquet.iml" filepath="$PROJECT_DIR$/advance-parquet/advance-parquet.iml" />
       <module fileurl="file://$PROJECT_DIR$/advance-service/advance-service.iml" filepath="$PROJECT_DIR$/advance-service/advance-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-sub/common-sub.iml" filepath="$PROJECT_DIR$/common-sub/common-sub.iml" />
     </modules>
   </component>
 </project>
