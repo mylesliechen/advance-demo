@@ -1,4 +1,4 @@
-package cx.commom.sample.concurrent;
+package cx.commom.sample.concurrent.thread;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package cx.commom.sample.concurrent;
+package cx.commom.sample.concurrent.thread;
 
 import lombok.extern.slf4j.Slf4j;
 
