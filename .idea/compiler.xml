@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="advance-raft" />
         <module name="common-sub" />
         <module name="advance-parquet" />
         <module name="advance-service" />
@@ -16,6 +17,7 @@
       <module name="advace-parquet" target="1.8" />
       <module name="advance-demo" target="1.8" />
       <module name="advance-parquet" target="1.8" />
+      <module name="advance-raft" target="1.8" />
       <module name="advance-service" target="1.8" />
       <module name="common-sub" target="1.8" />
     </bytecodeTargetLevel>
@@ -25,6 +27,7 @@
       <module name="advace-parquet" options="-parameters" />
       <module name="advance-demo" options="-parameters" />
       <module name="advance-parquet" options="-parameters" />
+      <module name="advance-raft" options="-parameters" />
       <module name="advance-service" options="-parameters" />
       <module name="common-sub" options="-parameters" />
     </option>
