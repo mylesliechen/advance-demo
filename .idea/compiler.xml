@@ -7,10 +7,6 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="advance-raft" />
-        <module name="common-sub" />
-        <module name="advance-parquet" />
-        <module name="advance-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -29,6 +25,7 @@
       <module name="advance-parquet" options="-parameters" />
       <module name="advance-raft" options="-parameters" />
       <module name="advance-service" options="-parameters" />
+      <module name="advanced-restfull" options="-parameters" />
       <module name="common-sub" options="-parameters" />
     </option>
   </component>

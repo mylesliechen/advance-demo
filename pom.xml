@@ -8,6 +8,7 @@
         <module>advance-parquet</module>
         <module>common-sub</module>
         <module>advance-raft</module>
+        <module>advanced-restfull</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
